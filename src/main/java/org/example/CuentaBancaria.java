@@ -11,7 +11,7 @@ public class CuentaBancaria {
 
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo += cantidad;
+            saldo += cantidad; // cambio en IJ para conflicto
         }
     }
     // Cambio en gitHub
